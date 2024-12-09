@@ -18,6 +18,12 @@ pip install -r requirements.txt
 # Explanation of running the project
 I have provided the complete training process (train model script), the distillation-only training process (fast train script), and the direct prediction process (Direct prediction). I have pre-placed the required datasets in the ./data directory. This dataset is consistent with the official one and comes from open-source datasets. For more details, please refer to the Model SUMMARY proposal I submitted.
 
+我提供了完整的训练流程（train model script）、
+仅蒸馏的训练流程（fast train script）以及
+直接预测流程（Direct prediction），
+
+所需的数据集我都预先放在了./data目录下，这个数据集和官方的一致，来自开源数据集，更多细节可以参考我提交的Model SUMMARY提案。
+
 
 # Explanation of directory tree
 ```
