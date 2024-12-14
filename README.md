@@ -27,22 +27,22 @@ I have provided the complete training process (train model script), the distilla
 
 # Explanation of directory tree
 ```
-./model_path # pretrained model path
-./src_fast  # fast train script (see fast train script section)
-./src # The complete process of my solution
-./data # train data and other data
+./model_path # pretrained model path 预训练模型路径
+./src_fast  # fast train script (see fast train script section) 快速训练脚本（参见readme快速脚本部分）
+./src # The complete process of my solution 我的解决方案的完整过程
+./data # train data and other data 训练数据和其他数据
 ./data/oof 
 ./data/processed_data
-./data/processed_data/orgemma2fold4  # The training set with 70b probabilities can be directly distilled.
+./data/processed_data/orgemma2fold4  # The training set with 70b probabilities can be directly distilled. 具有70b概率分布 的训练集可以直接进行蒸馏。
 ./data/processed_data/orgemma2fold2  # same 
 ./data/processed_data/orgemma2fold0  # same 
 ./data/processed_data/orgemma2fold1  # same 
 ./data/processed_data/orgemma2fold3  # same 
 ./data/lmsys-chatbot-arena
 ./sub # output dir
-./model_save # save path for train model
+./model_save # save path for train model 训练后模型的保存路径
 ./model_save_or
-./model_save_or/v7_ut_gemma_v7_64r128_ddgemma2_16bit # post-pretrain ut model of gemma2-9b
+./model_save_or/v7_ut_gemma_v7_64r128_ddgemma2_16bit # post-pretrain ut model of gemma2-9b 后训练的gemma2 9b ut模型
 
 ```
 
